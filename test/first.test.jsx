@@ -5,5 +5,10 @@ describe('Les fonctions dans App', () => {
         const attendu = 'hello'
         expect(exempleFunction('hello')).toEqual(attendu);
 
+    }),
+    test('Deuxieme test', () => {
+        const attendu = 2
+        expect(1+1).toEqual(attendu);
+
     })
 })
